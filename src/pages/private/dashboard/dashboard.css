@@ -1,0 +1,23 @@
+/* dashboard.css */
+
+.shadow-lg {
+  transition: transform 0.2s;
+}
+
+.shadow-lg:hover {
+  transform: scale(1.05);
+}
+
+.display-6 {
+  font-size: 1.75rem;
+  font-weight: bold;
+}
+
+button[disabled] {
+  background-color: #6c757d;
+  border-color: #6c757d;
+}
+
+button[disabled]:hover {
+  cursor: not-allowed;
+}
